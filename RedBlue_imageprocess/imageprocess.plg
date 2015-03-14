@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: imageprocess - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPA0DC.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/imageprocess.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\课件\数字图像处理\Class4\RedBlue_imageprocess\imageprocessView.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPA0DC.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPA0DD.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/imageprocess.pdb" /debug /machine:I386 /out:"Debug/imageprocess.exe" /pdbtype:sept 
+".\Debug\CDib.obj"
+".\Debug\imageprocess.obj"
+".\Debug\imageprocessDoc.obj"
+".\Debug\imageprocessView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\imageprocess.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPA0DD.tmp"
+<h3>Output Window</h3>
+Compiling...
+imageprocessView.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/imageprocess.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\CDib.sbr" ".\Debug\imageprocess.sbr" ".\Debug\imageprocessDoc.sbr" ".\Debug\imageprocessView.sbr" ".\Debug\MainFrm.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+imageprocess.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
